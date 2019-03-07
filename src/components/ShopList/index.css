@@ -1,0 +1,38 @@
+.ShopList {
+  padding: 0 0.17rem;
+}
+.ShopList .shop-title {
+  position: relative;
+  height: .5rem;
+  line-height: .5rem;
+  text-align: center;
+  font-size: .15rem;
+  font-weight: 500;
+  color: #333;
+}
+.ShopList .shop-title::after,
+.ShopList .shop-title::before {
+  position: absolute;
+  content: "";
+  height: .02rem;
+  width: .2rem;
+  background-color: #999;
+  top: 50%;
+}
+.ShopList .shop-title::before {
+  left: 50%;
+  transform: translate3d(-0.1rem, -0.01rem, 0);
+  margin-left: .5rem;
+}
+.ShopList .shop-title::after {
+  right: 50%;
+  transform: translate3d(0.1rem, -0.01rem, 0);
+  margin-right: .5rem;
+}
+.ShopList .shop-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #666;
+  height: .3rem;
+}

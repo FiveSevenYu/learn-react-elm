@@ -1,0 +1,26 @@
+.FoodNav {
+  background-color: #fff;
+  height: 1.5rem;
+  overflow: hidden;
+  margin-top: .05rem;
+}
+.FoodNav .slider-container {
+  height: 100%;
+  width: 200%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.FoodNav .slider-container .figure {
+  width: 12.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.FoodNav .slider-container .figure img {
+  width: .36rem;
+}
+.FoodNav .slider-container .figure .nav-dec {
+  margin-top: .05rem;
+  font-size: .12rem;
+}

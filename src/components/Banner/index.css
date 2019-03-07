@@ -1,0 +1,31 @@
+.Banner {
+  padding: .17rem;
+  padding-bottom: 0;
+}
+.Banner .comboEnter {
+  height: .93rem;
+  background-color: #f6f6f6;
+  padding: .1rem .2rem 0 .15rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .05rem;
+}
+.Banner .comboEnter h3 {
+  font-size: .18rem;
+}
+.Banner .comboEnter .desc {
+  color: #777;
+  font-size: .13rem;
+}
+.Banner .comboEnter .buy-button {
+  color: #af8260;
+  font-size: .13rem;
+  font-weight: 600;
+}
+.Banner .comboEnter img {
+  height: .8rem;
+}
+.Banner .carousel .slider-container img {
+  width: 100%;
+}

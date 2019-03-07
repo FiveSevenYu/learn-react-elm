@@ -1,0 +1,35 @@
+@main-color: #ff841d;
+
+.TabBar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: .55rem;
+    box-shadow: 0 -0.01rem .05rem #ddd;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .TabBar-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #666;
+
+        .iconfont {
+            font-size: .25rem;
+        }
+
+        span {
+            font-size: .10rem;
+        }
+    }
+
+    .active {
+        color: @main-color;
+    }
+
+}

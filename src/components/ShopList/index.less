@@ -1,0 +1,39 @@
+.ShopList {
+    padding: 0 0.17rem;
+    .shop-title {
+        position: relative;
+        height: .5rem;
+        line-height: .5rem;
+        text-align: center;
+        font-size: .15rem;
+        font-weight: 500;
+        color: #333;
+        &::after,&::before{
+            position: absolute;
+            content: "";
+            height: .02rem;
+            width: .2rem;
+            background-color: #999;
+            top: 50%;
+        }
+        &::before {
+            left: 50%;
+            transform: translate3d(-.1rem,-.01rem,0);
+            margin-left: .5rem;
+        }
+        &::after {
+            right: 50%;
+            transform: translate3d(.1rem,-.01rem,0);
+            margin-right: .5rem;
+        }
+
+    }
+    //TODO
+    .shop-filter {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #666;
+        height: .3rem;
+    }
+}
