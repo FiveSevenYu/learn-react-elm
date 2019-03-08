@@ -1,0 +1,90 @@
+.Shopitem {
+    padding:.12rem 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    &:last-child {
+        border:none;
+    }
+    .shopLogo {
+        margin-right:17px;
+        img {
+            width: .64rem;
+        }
+    }
+    .merchantInfo {
+        flex: 1;
+        font-size: .13rem;
+        
+        color: #666;
+        h4 {
+            font-size: .16rem;
+            color: #333;
+        }
+        .merchantDesc {
+            display: flex;
+            position: relative;
+            justify-content: flex-start;
+            height: .25rem;
+            line-height: .25rem;
+            .ratingAndstar {
+                width: .59rem;
+                .star {
+                    display: inline-block;
+                }
+            }
+            img {
+                height: .1rem;
+                margin-right: .02rem;
+            }
+            .rating {
+                color: #ff9a0d;
+                margin: 0 .03rem;
+            }
+            .SupportsIcon {
+                position: absolute;
+                right: 0;
+                top: 50%;
+                transform: translateY(-.07rem);
+                color: #fff;
+                border-style: solid;
+                border-width: .01rem;
+                border-radius: .04rem;
+                font-size: .1rem;
+                padding: 0 .02rem;
+                font-weight: 600;
+                height: .14rem;
+                line-height: .14rem;
+            }
+
+        }
+        .pei {
+            display: flex;
+            justify-content: space-between;
+            // height: .25rem;
+            line-height: .25rem;
+            line-height: .22rem;
+            font-size: .11rem;
+            padding-bottom: .1rem;
+            
+        }
+        .active {
+            
+            .activeItem {
+                font-size: .12rem;
+                padding-top: .03rem;
+                &:first-child {
+                    border-top: 1px solid #eee;
+                    padding-top: .1rem;
+                }
+
+                i {
+                    margin-right: .05rem;
+                    color: #fff;
+                    padding: .015rem;
+                    border-radius: .03rem;
+                }
+            }
+        }
+        
+    }
+}

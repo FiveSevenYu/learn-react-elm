@@ -6,7 +6,7 @@ import ShopList from '../components/ShopList'
 class Home extends React.Component {
     render(){
         return(
-            <div>
+            <div style={{ paddingBottom: '.45rem' }}>
                 <HomeHeader />
                 <FoodNav />
                 <Banner />

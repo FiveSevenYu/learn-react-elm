@@ -5,8 +5,8 @@ const Banner = () => (
         <div className="comboEnter">
             <div className="leftInfo">
                 <h3>品质套餐</h3>
-                <div class="desc">搭配齐全吃得好</div >
-                < div class = "buy-button" >
+                <div className="desc">搭配齐全吃得好</div >
+                < div className = "buy-button" >
                     立即抢购 &gt;
                 </div>
             </div>
