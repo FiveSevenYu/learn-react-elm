@@ -10,11 +10,11 @@ const Banner = () => (
                     立即抢购 &gt;
                 </div>
             </div>
-            <img src="https://fuss10.elemecdn.com/e/ee/df43e7e53f6e1346c3fda0609f1d3png.png?imageMogr/format/webp/thumbnail/!282x188r/gravity/Center/crop/282x188/" />
+            <img src={require('./images/kaorou.jpeg')} alt=".." />
         </div>
         <div className="carousel">
             <div className="slider-container">
-                <img src="https://fuss10.elemecdn.com/4/48/37fce9a4ffbec79293357f68ecfcbjpeg.jpeg?imageMogr/format/webp/thumbnail/568x/" />
+                <img src={require('./images/juan.jpeg')} alt=".." />
             </div>
         </div>
     </div>

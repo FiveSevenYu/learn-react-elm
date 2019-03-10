@@ -1,0 +1,28 @@
+.Citylist {
+  background-color: #f5f5f5;
+}
+.Citylist .WordCity {
+  background-color: #fff;
+  color: #666;
+  margin-bottom: .12rem;
+  box-shadow: 0 0 .03rem .01rem #ddd;
+}
+.Citylist .WordCity .wordTitle {
+  height: .4rem;
+  line-height: .4rem;
+  border-bottom: .01rem solid #ddd;
+  padding-left: .2rem;
+}
+.Citylist .WordCity ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Citylist .WordCity ul li {
+  text-align: center;
+  width: 25%;
+  height: .35rem;
+  line-height: .35rem;
+  overflow: hidden;
+  border-right: .01rem solid #ddd;
+  border-bottom: .01rem solid #ddd;
+}

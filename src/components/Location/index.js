@@ -11,7 +11,7 @@ class Location extends React.Component {
         }
     }
     getLocation() {
-        setTimeout(() => {
+        this.time = setTimeout(() => {
             if(window.lat) {
                 fetch('https://elm.cangdu.org/v2/pois/'+window.lat+','+window.lng)
                 .then(res => res.json())
@@ -39,5 +39,9 @@ class Location extends React.Component {
             </div>
         )
     }
+    componentWillUnmount (){
+        clearInterval(this.time)
+    }
+
 }
 export default Location;

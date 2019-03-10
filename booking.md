@@ -4,7 +4,7 @@
 
 #### 项目Tree树生成
 
-用mddir来生成项目Tree树,默认会忽略掉node_modules和.git文件夹
+用mddir来生成项目Tree树(默认会忽略掉node_modules和.git文件夹)
 ```
 cd learn-react-elm
 npm install mddir --save

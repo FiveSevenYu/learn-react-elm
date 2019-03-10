@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Location from '../Location'
 import './index.css'
 
@@ -11,7 +12,9 @@ const Search = () => (
 
 const HomeHeader = () => (
     <div className="HomeHeader">
-        <Location />
+        <Link to="/city">
+            <Location />
+        </Link>
         <Search />
     </div>
 )

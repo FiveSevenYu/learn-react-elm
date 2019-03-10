@@ -14,7 +14,6 @@ class ShopList extends React.Component {
             .then(data => this.setState({
                 shopList: data
             }))
-            .then(() => console.log(this.state.shopList))
     }
     render(){
         const { shopList } = this.state;

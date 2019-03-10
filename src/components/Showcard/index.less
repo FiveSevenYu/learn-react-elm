@@ -1,0 +1,32 @@
+.Showcard {
+    position: relative;
+    height: 3rem;
+    background-color: #fff;
+    background-image: url(./images/nothing.png);
+    background-size: cover;
+    background-position: center center;
+    // overflow: hidden;
+    &::after,&::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: transparent;
+        box-shadow: 0 .1rem .3rem .15rem #ccc;
+        z-index: -1;
+    }
+    &::before {
+        transform: rotate(4deg) translate3d(.05rem,-.03rem,0) scale(.9);
+    }
+    &::after {
+        transform: rotate(-4deg) translate3d(-.05rem,-.03rem,0) scale(.9);
+    }
+    .showTitle {
+        height: 80%;
+        img {
+            height: 100%;
+        }
+    } 
+}
